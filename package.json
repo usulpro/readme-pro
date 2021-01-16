@@ -1,0 +1,32 @@
+{
+  "name": "@usulpro/readme-pro",
+  "version": "1.0.0",
+  "author": "Oleg Proskurin (https://github.com/UsulPro)",
+  "description": "different readme files for github and npm",
+  "main": "dist/index.js",
+  "scripts": {
+    "prepare": "package-prepare",
+    "start": "npm run prepare && node dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UsulPro/readme-pro.git"
+  },
+  "keywords": [
+    "npm",
+    "github",
+    "readme",
+    "documentation"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/UsulPro/readme-pro/issues"
+  },
+  "homepage": "https://github.com/UsulPro/readme-pro#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.12.10",
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@usulpro/package-prepare": "^1.2.1"
+  }
+}
